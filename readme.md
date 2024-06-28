@@ -99,3 +99,4 @@ WD-Seatwork-4
 | Title | Purpose | Link |
 |-|-|-|
 | WH-1000XM5 | References | https://www.sony.com.ph/electronics/headband-headphones/wh-1000xm5 |
+| Switch Lite | References | https://www.nintendo.com/us/store/products/nintendo-switch-lite-blue/ |

@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    color: white;
+    padding: 1em;
+    height: 70dvh;
+    text-align: center;
+    background-color: red;
+}
+
+header img {
+    transition: 1s;
+    height: 30dvh;
+    margin: 10em 0em 0em;
+}
+
+header img:hover {
+    transition: height 1s;
+    height: 35dvh;
+}
+
+.home a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    min-height: 100dvh;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    background-color: #e6e6e6;
+}
+
+.features img {
+    width: 50dvh;
+}
+
+.feature{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 5dvh;
+}
+
+.feature img {
+    display: block;
+}
+
+footer {
+    background-color: #ff0000;
+    color: white;
+    padding: 2em;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    display: flex;
+    background-color: rgb(223, 223, 223);
+}
+
+.row {
+    margin: 20dvh 10dvh;
+}
+
+.row img {
+    height: 50dvh;
+}
+
+.colors img {
+    object-position: -296px;
+    transition: 1s;
+    position: relative;
+    height: 20dvh;
+}
+
+.colors img:hover {
+    cursor: pointer;
+    object-position: 0px;
+    transform: colors img 1s;
+}
+
+.column {
+    margin: 2dvh 10dvh;
+}
+
+.column img {
+    height: 50dvh;
+}
+
+.column p {
+    margin: 25dvh 0dvh;
+}
+
+.column h4 {
+    margin: 5dvh 1dvh;
+}
+
+.column a{
+    cursor: pointer;
+    display: block;
+    margin: 1dvh
+}
+
+.column a:hover {
+    text-decoration: underline;
+    color: gray;
+    transition: color 0.3s;
+}
+
