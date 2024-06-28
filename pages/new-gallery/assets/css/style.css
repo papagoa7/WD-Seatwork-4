@@ -133,16 +133,12 @@ main {
     opacity: 1;
 }
 
-.feature {
+.features {
     display: flex;
     background-color: #f9f9f9;
 }
 
-.feature .feature-left {
-    margin: 5dvh;
-}
-
-.feature .feature-right {
+.feature{
     margin: 5dvh;
 }
 
